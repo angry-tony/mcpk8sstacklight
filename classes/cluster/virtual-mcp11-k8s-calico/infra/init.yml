@@ -41,11 +41,11 @@ parameters:
   linux:
     network:
       interface:
-        weave:
+        eth1:
           enabled: true
           type: eth
           proto: static
-          name: weave
+          name: eth1
           address: ${_param:single_address}
           netmask: 255.255.255.0
     system:
