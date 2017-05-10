@@ -26,8 +26,8 @@ parameters:
     kubernetes_control_node01_address: 172.31.64.101
     kubernetes_control_node02_address: 172.31.64.102
     kubernetes_control_node03_address: 172.31.64.103
-    kubernetes_compute_node01_address: 172.31.64.105
-    kubernetes_compute_node02_address: 172.31.64.106
+    kubernetes_compute_node01_address: 172.31.64.104
+    kubernetes_compute_node02_address: 172.31.64.105
     kubernetes_proxy_node01_hostname: prx01
     kubernetes_proxy_node01_address: 172.31.64.110
 
