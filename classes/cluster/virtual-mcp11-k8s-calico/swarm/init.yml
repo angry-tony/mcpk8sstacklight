@@ -1,13 +1,13 @@
 parameters:
   _param:
     docker_swarm_hostname: mon
-    docker_swarm_address: 172.16.10.252
+    docker_swarm_address: 172.31.64.252
     docker_swarm_node01_hostname: mon01
     docker_swarm_node02_hostname: mon02
     docker_swarm_node03_hostname: mon03
-    docker_swarm_node01_address: 172.16.10.107
-    docker_swarm_node02_address: 172.16.10.108
-    docker_swarm_node03_address: 172.16.10.109
+    docker_swarm_node01_address: 172.31.64.107
+    docker_swarm_node02_address: 172.31.64.108
+    docker_swarm_node03_address: 172.31.64.109
   linux:
     network:
       host:
