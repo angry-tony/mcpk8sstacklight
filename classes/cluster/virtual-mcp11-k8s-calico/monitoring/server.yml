@@ -28,7 +28,7 @@ parameters:
     grafana_admin_password: admin
     keepalived_prometheus_vip_address: ${_param:cluster_vip_address}
     keepalived_prometheus_vip_password: password
-    keepalived_prometheus_vip_interface: ens4
+    keepalived_prometheus_vip_interface: eth1
     # Kibana
     kibana_elasticsearch_host: ${_param:cluster_vip_address}
     # Elasticsearch

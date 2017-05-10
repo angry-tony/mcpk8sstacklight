@@ -38,9 +38,6 @@ parameters:
           - ${_param:infra_config_hostname}
           - ${_param:infra_config_hostname}.${_param:cluster_domain}
       interface:
-  linux:
-    network:
-      interface:
         eth1:
           enabled: true
           type: eth

@@ -35,14 +35,7 @@ parameters:
         dns:
           - 8.8.8.8
       interface:
-        ens4:
-          route:
-            kubernetes_services:
-              address: 10.254.0.0
-              netmask: 255.255.0.0
-              gateway: ${_param:single_address}
-      interface:
-        ens4:
+        eth1:
           route:
             kubernetes_services:
               address: 10.254.0.0
