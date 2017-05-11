@@ -9,7 +9,7 @@ parameters:
     kubernetes_calicoctl_image: calico/ctl:latest
     kubernetes_calico_image: calico/node:latest
     kubernetes_calico_cni_image: calico/cni:latest
-    kubernetes_hyperkube_image: gcr.io/google_containers/hyperkube-amd64:v1.5.4-5
+    kubernetes_hyperkube_image: gcr.io/google_containers/hyperkube-amd64:v1.5.1
   docker:
     host:
       pkgs:
